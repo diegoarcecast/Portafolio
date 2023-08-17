@@ -3,27 +3,27 @@
 var reply_click_about = function()
 {
     //alert("Button clicked, id "+this.id+", text"+this.innerHTML);
-    window,open('about.html');
+    window,open('about.html', '_self');
 }
 var reply_click_services = function()
 {
     //alert("Button clicked, id "+this.id+", text"+this.innerHTML);
-    window,open('services.html');
+    window,open('services.html', '_self');
 }
 var reply_click_portfolio = function()
 {
     //alert("Button clicked, id "+this.id+", text"+this.innerHTML);
-    window,open('portfolio.html');
+    window,open('portfolio.html', '_self');
 }
 var reply_click_home = function()
 {
     //alert("Button clicked, id "+this.id+", text"+this.innerHTML);
-    window,open('index.html');
+    window,open('index.html', '_self');
 }
 var reply_click_contact = function()
 {
     //alert("Button clicked, id "+this.id+", text"+this.innerHTML);
-    window,open('contact.html');
+    window,open('contact.html', '_self');
 }
 
 document.getElementById('btnHome').onclick = reply_click_home;
