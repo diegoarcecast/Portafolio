@@ -1,4 +1,4 @@
-window.alert("JS CONECTADO")
+//window.alert("JS CONECTADO")
 
 var reply_click_about = function()
 {
